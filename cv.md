@@ -1,5 +1,5 @@
-
-# Anna Ostanina ![Ostanina](./assets/img/IMGL6878.png "Anna Ostanina")
+![Ostanina](./assets/img/IMGL6878.png "Anna Ostanina")
+# Anna Ostanina 
 ### Frontend developer
 ********* 
 ## INFORMATION & CONTACTS
