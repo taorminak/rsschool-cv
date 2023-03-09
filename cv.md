@@ -1,4 +1,4 @@
-![Ostanina](./assets/img/IMGL6878.jpg "Anna Ostanina")
+![Ostanina](./assets/img/IMGL6878.png "Anna Ostanina")
 # Anna Ostanina
 ### Frontend developer
 ********* 
