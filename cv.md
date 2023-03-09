@@ -6,31 +6,33 @@
 * mobile: +436649122408
 * e-mail: ostanina.anna@yahoo.com 
 * [Github profile](https://github.com/taorminak)
+
 ********* 
 ## ABOUT
+
 Passionate about programming. Fast-learner, adherent of the idea of the long-life learning. Adaptable and creative.
 
 Working as a language teacher for a long time, I have always paid attention to the trends in education such as the strongest influence of technologies in the field. A few years ago, I started thinking about changing my career path, and it was only natural to go on a journey as a programmer. I studied how to code HTML & CSS, Javascript & React.js and continue to deepen my knowledge with the help of the various courses and professional literature. 
 
 I like to spend time productively and hope to significantly expand the list of frameworks and programming languages I know over time, as well as to implement some inspiring high-quality projects.
+
 ********* 
 ## SKILLS
 HTML, HTML5, CSS, CSS3, Bootstrap, ES6, JavaScript, React.js, Git, Flexbox, Grid, Figma, Sass, BEM, Responsive and Adaptive Design, Scrum, Microsoft Office (Excel, Word, PowerPoint)
+
 ********* 
 ## Work Experience
 
-* Personal website
-+ [Personal website](https://github.com/taorminak/Project-Personal-Portfolio)
+* [Personal website](https://github.com/taorminak/Project-Personal-Portfolio)
 + HTML5, CSS3, Bootstrap, JavaScript
-* SPA developed for learning words in a foreign language
-+ [Learning words app](https://github.com/taorminak/my-application)
+* [Learning words app](https://github.com/taorminak/my-application)
 + SPA, React.js, HTML5, CSS3
-* Online Furniture Store
-+ [Group project of an online store](https://github.com/taorminak/Online-Furniture-Store)
+* [Group project of an online furniture store](https://github.com/taorminak/Online-Furniture-Store)
 + HTML5, CSS3, JavaScript, Trello, Scrum
+
 ********* 
 ## CODE EXAMPLE
-** Sum without highest and lowest number ** 
+**Sum without highest and lowest number** 
 Sum all the numbers of a given array ( cq. list ), except the highest and the lowest element ( by value, not by index! ). The highest or lowest element respectively is a single element at each edge, even if there are more than one with the same value. Mind the input validation.
 ```
 function sumArray(array) {
