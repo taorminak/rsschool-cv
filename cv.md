@@ -1,8 +1,8 @@
-![Ostanina](.assets/img/IMGL6878.jpg "Anna Ostanina")
+![Ostanina](./assets/img/IMGL6878.jpg "Anna Ostanina")
 # Anna Ostanina
 ### Frontend developer
 ********* 
-## INFORMATION & Contacts
+## INFORMATION & CONTACTS
 * mobile: +436649122408
 * e-mail: ostanina.anna@yahoo.com 
 * [Github profile](https://github.com/taorminak)
@@ -21,14 +21,14 @@ I like to spend time productively and hope to significantly expand the list of f
 HTML, HTML5, CSS, CSS3, Bootstrap, ES6, JavaScript, React.js, Git, Flexbox, Grid, Figma, Sass, BEM, Responsive and Adaptive Design, Scrum, Microsoft Office (Excel, Word, PowerPoint)
 
 ********* 
-## Work Experience
+## WORK EXPERIENCE
 
 * [Personal website](https://github.com/taorminak/Project-Personal-Portfolio)
-+ HTML5, CSS3, Bootstrap, JavaScript
+    + HTML5, CSS3, Bootstrap, JavaScript
 * [Learning words app](https://github.com/taorminak/my-application)
-+ SPA, React.js, HTML5, CSS3
+    + SPA, React.js, HTML5, CSS3
 * [Group project of an online furniture store](https://github.com/taorminak/Online-Furniture-Store)
-+ HTML5, CSS3, JavaScript, Trello, Scrum
+    + HTML5, CSS3, JavaScript, Trello, Scrum
 
 ********* 
 ## CODE EXAMPLE
@@ -54,7 +54,7 @@ function sumArray(array) {
 * Online IT School "IT GIRLS" (in progress)
 * RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
 
-## Languages
+## LANGUAGES
 * Russian (native), 
 * English (Cambridge Certificate C1), 
 * Romanian (C1), 
