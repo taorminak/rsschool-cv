@@ -17,8 +17,12 @@ Working as a language teacher for a long time, I have always paid attention to t
 I like to spend time productively and hope to significantly expand the list of frameworks and programming languages I know over time, as well as to implement some inspiring high-quality projects.
 
 ********* 
-## SKILLS
-HTML, HTML5, CSS, CSS3, Bootstrap, ES6, JavaScript, React.js, Git, Flexbox, Grid, Figma, Sass, BEM, Responsive and Adaptive Design, Scrum, Microsoft Office (Excel, Word, PowerPoint)
+## TECH SKILLS
+
+Languages & Technologies: HTML, HTML5, CSS, CSS3, ES6, JavaScript, TypeScript, React.js, Vue.js, Sass, BEM, Flexbox, Grid, Bootstrap, Python (Basics), PHP (Basics)
+Testing Frameworks: Jest, Vitest
+Development Tools: Git, Figma, Microsoft Office (Excel, Word, PowerPoint)
+Design & Methodologies: Figma, Responsive and Adaptive Design, Scrum
 
 ********* 
 ## WORK EXPERIENCE
@@ -51,8 +55,8 @@ function sumArray(array) {
 ```
 ********* 
 ## EDUCATION
-* Online IT School "IT GIRLS" (in progress)
-* RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
+* Online IT School "IT GIRLS" 
+* RS Schools Course «JavaScript/Front-end. Stage 1 & 2» 
 
 ## LANGUAGES
 * Russian (native), 
