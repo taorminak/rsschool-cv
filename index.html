@@ -1,12 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Anna Ostanina | Full Stack Developer</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
 </head>
+
 <body>
-    <div>Anna Ostanina</div>
+    <header>
+        <h1>Anna Ostanina</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Passionate about programming and committed to lifelong learning. Aiming to contribute as a junior full
+                stack developer, driven to continuously grow in both frontend and backend development.</p>
+            <img src="assets/images/profile.jpg" alt="Anna Ostanina's photo" class="profile-photo">
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <ul>
+                <li>Email: <a href="mailto:ostanina.anna@yahoo.com">ostanina.anna@yahoo.com</a></li>
+                <li>Phone: +436649122408</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/anna-ostanina-at/"
+                        target="_blank">linkedin.com/in/anna-ostanina-at</a></li>
+                <li>GitHub: <a href="https://github.com/taorminak" target="_blank">github.com/taorminak</a></li>
+                <li>Location: Vienna, Austria</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, SASS, Bootstrap, Tailwind</li>
+                <li>JavaScript, React, Vue</li>
+                <li>Typescript, PHP, Laravel</li>
+                <li>Python, FastAPI, GraphQL</li>
+                <li>Responsive Design</li>
+                <li>Jest, Vitest</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Online Video Games Store - <a href="https://github.com/taorminak/E-commerce-app"
+                        target="_blank">Source Code</a></li>
+                <li>Online Furniture Store - <a href="https://github.com/taorminak/Online-Furniture-Store"
+                        target="_blank">Source Code</a></li>
+            </ul>
+            <h3>Code Example</h3>
+            <pre>
+<code>
+const Cat = (function(name, weight) {
+
+let cats = [];
+
+function Cat(name, weight) {
+if (!name || !weight) {
+throw new Error('Both name and weight are required');
+}
+Object.defineProperty(this, 'weight', {
+get: function() {
+return weight;
+},
+set: function(value) {
+weight = value;
+}
+});
+this.name = name;
+this.weight = weight;
+cats.push(this);
+}
+
+Cat.averageWeight = function() {
+let totalWeight = 0;
+if (cats.length === 0) {
+return undefined;
+}
+for (let i = 0; i < cats.length; i++) { totalWeight +=cats[i].weight; } return totalWeight / cats.length; }; return Cat;
+    }());
+
+</code>
+      </pre>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>The Rolling Scopes School, Frontend Development, 2023</li>
+                <li>IT Girls School, Software Development, 2022-2023</li>
+                <li>Bucharest University, Master of Communication and Public Relations</li>
+            </ul>
+            <p>English: C1 | Russian: Native | Romanian: C1 | German: B1+</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <p>&copy; 2024 Anna Ostanina</p>
+                <a 
+                    href="https://github.com/taorminak" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    GitHub
+                </a>
+            </div>
+            
+            <div class="footer-education">
+                <a 
+                    href="https://rs.school/js/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    <img src="https://rs.school/images/rs_school_js.svg" alt="RS School" class="rs-school-logo">
+                    <span>The Rolling Scopes School</span>
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
