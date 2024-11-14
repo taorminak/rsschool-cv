@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.body {
+.page {
   font-family: 'Inter', sans-serif;
   line-height: 1.6;
   color: #333;
@@ -26,29 +26,29 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.header .container {
+.header__content {
   min-height: auto;
 }
 
-.header-title {
+.header__title {
   font-size: 2.5rem;
   color: #2d3748;
 }
 
-.nav-list {
+.nav__list {
   display: flex;
   gap: 2rem;
   list-style: none;
 }
 
-.nav-link {
+.nav__link {
   text-decoration: none;
   color: #4a5568;
   font-weight: 500;
   transition: color 0.2s ease;
 }
 
-.nav-link:hover {
+.nav__link:hover {
   color: #2b6cb0;
 }
 
@@ -56,7 +56,7 @@
   flex: 1;
   width: 100%;
   margin: 0 auto;
-padding: 2rem;
+  padding: 2rem;
 }
 
 .section {
@@ -65,52 +65,62 @@ padding: 2rem;
   margin: 0 auto;
 }
 
-.section-title {
+.section__title {
   font-size: 2rem;
   margin-bottom: 2rem;
   color: #2d3748;
 }
 
-.profile-photo {
+.section__text {
+  margin-bottom: 1.5rem;
+}
+
+.profile__photo {
   display: block;
   max-width: 300px;
   border-radius: 50%;
   margin: 2rem auto;
 }
 
-.skills-list {
+.skills__list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   list-style: none;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.skills-item {
-  padding: 0.5rem 1rem;
+.skills__item {
+  padding: 1rem;
   background-color: #edf2f7;
   border-radius: 4px;
   text-align: center;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.projects-list {
+.projects__list {
   list-style: none;
 }
 
-.projects-item {
+.projects__item {
   margin-bottom: 1rem;
 }
 
-.project-link {
+.projects__link {
   color: #2b6cb0;
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
-.project-link:hover {
+.projects__link:hover {
   color: #2c5282;
 }
 
-.code-block {
+.code {
   background-color: #2d3748;
   color: #e2e8f0;
   padding: 1.5rem;
@@ -119,27 +129,40 @@ padding: 2rem;
   margin: 1rem 0;
 }
 
-.code-content {
+.code__content {
   font-family: 'Fira Code', monospace;
   font-size: 0.9rem;
 }
 
-.contact-list {
+.contact__list {
   list-style: none;
 }
 
-.contact-item {
+.contact__item {
   margin-bottom: 0.5rem;
 }
 
-.contact-link {
+.contact__link {
   color: #2b6cb0;
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
-.contact-link:hover {
+.contact__link:hover {
   color: #2c5282;
+}
+
+.education__list {
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
+
+.education__item {
+  margin-bottom: 0.5rem;
+}
+
+.education__languages {
+  color: #4a5568;
 }
 
 .footer {
@@ -149,9 +172,8 @@ padding: 2rem;
   margin-top: auto;
 }
 
-.footer-content {
+.footer__content {
   max-width: 1200px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -159,14 +181,13 @@ padding: 2rem;
   gap: 1rem;
 }
 
-.footer-info {
+.footer__info {
   display: flex;
   gap: 1rem;
   align-items: center;
 }
 
-.github-link,
-.rs-school-link {
+.footer__link {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -175,29 +196,29 @@ padding: 2rem;
   transition: opacity 0.2s ease;
 }
 
-.rs-school-link:hover,
-.rs-school-link:focus {
+.footer__link:hover,
+.footer__link:focus {
   opacity: 0.8;
 }
 
-.rs-school-logo {
+.rs-school__logo {
   height: 40px;
   width: 40px;
   object-fit: contain;
 }
 
 @media (max-width: 768px) {
-  .nav-list {
+  .nav__list {
     flex-direction: column;
     gap: 1rem;
   }
 
-  .footer-content {
+  .footer__content {
     flex-direction: column;
     text-align: center;
   }
   
-  .footer-info {
+  .footer__info {
     flex-direction: column;
   }
 
@@ -238,4 +259,16 @@ padding: 2rem;
 
 .w-100 {
   width: 100%;
+}
+
+@media (max-width: 992px) {
+  .skills__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .skills__list {
+    grid-template-columns: 1fr;
+  }
 }
