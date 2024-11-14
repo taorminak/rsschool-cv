@@ -168,17 +168,23 @@
 }
 
 .code {
+  width: 100%;
+  max-width: var(--container-max-width);
+  margin: var(--spacing-md) auto;
+  padding: var(--spacing-md);
   background-color: var(--color-background-code);
   color: var(--color-code-text);
-  padding: var(--spacing-md);
-  border-radius: var(--border-radius-lg);
+  border-radius: var(--border-radius);
   overflow-x: auto;
-  margin: var(--spacing-sm) 0;
 }
 
 .code__content {
-  font-family: 'Fira Code', monospace;
+  font-family: var(--font-family-code);
   font-size: var(--font-size-sm);
+  white-space: pre-wrap;
+  word-break: break-word;
+  display: block;
+  line-height: 1.5;
 }
 
 .contact__list {
@@ -309,6 +315,15 @@
 
   .section {
     padding: var(--spacing-lg) 0;
+  }
+
+  .code {
+    margin: var(--spacing-sm) var(--spacing-xs);
+    padding: var(--spacing-sm);
+  }
+
+  .code__content {
+    font-size: calc(var(--font-size-sm) * 0.9);
   }
 }
 
