@@ -1,6 +1,7 @@
 ![Ostanina](./assets/images/ostanina_anna.png "Anna Ostanina")
+
 # Anna Ostanina 
-### Frontend developer
+### Full Stack Developer
 ********* 
 ## INFORMATION & CONTACTS
 * mobile: +436649122408
