@@ -176,15 +176,20 @@
   color: var(--color-code-text);
   border-radius: var(--border-radius);
   overflow-x: auto;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
 }
 
 .code__content {
   font-family: var(--font-family-code);
   font-size: var(--font-size-sm);
-  white-space: pre-wrap;
+  white-space: pre-line;
   word-break: break-word;
   display: block;
   line-height: 1.5;
+  max-width: 100%;
 }
 
 .contact__list {
